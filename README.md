@@ -1,2 +1,2 @@
 # Shopping_Cart-React_App
-Project react app
+Project react app updated
