@@ -1,8 +1,8 @@
 # Shopping Cart React App
 
-<img alt="alt_text" src="./shopping.gif"/>
+<h3>Visit: https://shopping-cart-apps-react.netlify.app/</h3>
 
-### Link : shopping-cart-apps-react.netlify.app
+<img alt="alt_text" src="./shopping.gif"/>
 
 # Shopping Cart Application Project
 
