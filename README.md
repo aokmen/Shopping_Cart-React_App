@@ -1,6 +1,7 @@
 
 
 # Shopping Cart
+<img alt="alt_text" src="./shopping.gif"/>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4a3b30cf-c0c2-4de1-83e7-de29183557de/deploy-status)](https://app.netlify.com/sites/shopping-cart-apps-react/deploys)
 
