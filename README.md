@@ -1,15 +1,12 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+
 
 # Shopping Cart
 
-## Description
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a3b30cf-c0c2-4de1-83e7-de29183557de/deploy-status)](https://app.netlify.com/sites/shopping-cart-apps-react/deploys)
 
-Project aims to create a Shopping Cart App.
+# Shopping Cart Application Project
 
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+This project is a web application built using React.js for managing a shopping cart. It allows users to add new products, view a list of products, and perform various actions like updating quantities and removing products. The application features several pages, including the main page, new product addition page, product list page, and an about page.
 
 ## Project Skeleton
 
@@ -39,61 +36,60 @@ SOLUTION
 └── yarn.lock
 
 ```
+## Description:
 
-## Expected Outcome
+### Key Features
 
-![Shopping Cart](shopping-cart.gif)
+- **Main Page:**
+  - Welcomes users to the shopping cart application.
+  - Provides buttons to navigate to different sections of the application.
+  - Buttons include "Add New Product" and "See Products."
 
-## Objective
+- **New Product Addition Page:**
+  - Allows users to add a new product to the shopping cart.
+  - Form fields for product name, price, quantity, and image URL.
+  - Upon submission, the new product is added to the list.
 
-Build a Shopping Cart App using ReactJS.
+- **Product List Page:**
+  - Displays a list of products in a card format.
+  - Each card includes the product name, image, price, quantity, and total price.
+  - Users can increase or decrease the quantity of products and remove them.
+  - Provides a total price calculation including taxes and shipping.
 
-### At the end of the project, following topics are to be covered;
+- **About Page:**
+  - Presents information about the developer.
+  - Includes a profile image, name, role, and brief introduction.
+  - Social media icons are linked to the developer's profiles.
+  - Offers buttons to navigate back to the main page or return to the previous page.
 
-- HTML
+## Components
 
-- CSS
+- `Navbar`: Navigation bar at the top of the application with links to different pages.
+- `Main`: The main landing page with buttons to navigate to other sections.
+- `NewProduct`: Page for adding new products with form fields.
+- `ProductList`: Page displaying the list of products and their details.
+- `ProductCard`: Component rendering individual product cards.
+- `CardTotal`: Component displaying the total amount and prices.
+- `About`: Page with information about the developer and links to social media.
+- `NotFound`: Page displayed for invalid routes with a home button.
 
-- JS
+## Styling
 
-- ReactJS
+- Styling is done using CSS classes and Bootstrap.
+- Each page has its specific layout and design.
+- The application has a responsive design that adjusts for different screen sizes.
 
-### At the end of the project, students will be able to;
+## Data Management
 
-- improve coding skills within HTML & CSS & JS & ReactJS.
+- Data is fetched from a mock API using Axios.
+- State management is handled using React's useState and useEffect hooks.
+- Products are displayed dynamically based on the data fetched from the API.
 
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+## Routing
 
-## Steps to Solution
+- Navigation between pages is managed using React Router.
+- Routes are defined for each page and are nested within the `Routes` component.
 
-- Step 1: Create React App using `npx create-react-app shopping-cart`
+## Conclusion
 
-- Step 2 : Install `"react-icons"` package to your `package.json` for icons or fontawesome cdn link paste to "public/index.html", install `axios` package and `react-router-dom`.
-
-- Step 3: Build Checkout Page App.
-
-- Step 4: You can use CSS frameworks like Bootstrap, Material UI etc.
-
-- Step 5: Push your application into your own public repo on Github
-
-- Step 6: Add project gif to your project and README.md file.
-
-## Notes
-
-- Watch the video and follow the steps to create an account and project on MockAPI.
-
-## Demo
-  <a href="https://shopping-cart-mockapi.vercel.app/" target="_blank">Shopping Cart</a>
-
-## MockApi
-
-<a href="https://mockapi.io/" target="_blank">MockApi</a>
-
-
-## How do we create mockApi? Watch the video!
-<a href="https://www.youtube.com/watch?v=i_Gvlp83GMk" target="_blank">
- Watch the video
-</a>
-
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
+This project demonstrates the use of React.js in building a functional shopping cart application. It covers various aspects of web development, including component-based architecture, state management, routing, API integration, and responsive design. By following the project's structure and coding practices, developers can create similar applications for managing shopping carts and other e-commerce-related functionalities.
