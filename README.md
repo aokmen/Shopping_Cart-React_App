@@ -8,7 +8,7 @@
 
 This project is a web application built using React.js for managing a shopping cart. It allows users to add new products, view a list of products, and perform various actions like updating quantities and removing products. The application features several pages, including the main page, new product addition page, product list page, and an about page.
 
-## Project Skeleton
+## Project Skeleton 
 
 ```
 Shopping Cart (folder)
