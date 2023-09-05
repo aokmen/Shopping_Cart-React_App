@@ -13,7 +13,7 @@ This project is a web application built using React.js for managing a shopping c
 ```
 Shopping Cart (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md         
 SOLUTION
 ├── public
 │     └── index.html
